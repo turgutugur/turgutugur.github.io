@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+<body>
+    <!-- bootstrap navigations -->
+<nav id="navigationlist">
+<ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="headings.html">Headings</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="textdemo.html">Text Demo</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="bulletlist.html">Bullet List</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="numberlist.html">Number List</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="cssdemo.html">CSS Demo</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="rome.html">Rome</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link  active" href="bootstrapDemo.html">Bootstrap Demo</a>
+    </li>
+</ul>
+</nav>
+<nav id="smallScreenNav">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+          Click to View Pages
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="headings.html">Headings</a>
+          <a class="dropdown-item" href="textdemo.html">Text Demo</a>
+          <a class="dropdown-item" href="bulletlist.html">Bullet List</a>
+          <a class="dropdown-item" href="numberlist.html">Number List</a>
+          <a class="dropdown-item" href="cssdemo.html">CSS Demo</a>
+          <a class="dropdown-item" href="rome.html">Rome</a>
+          <a class="dropdown-item" href="bootstrapDemo.html">Bootstrap Demo</a>
+        </div>
+    </div>
+</nav>
+    <!-- bootstrap class container -->
+    <div class="container">
+        <!-- bootstrap row -->
+        <div class="row">
+            <!-- within each row, you have your columns (max 12 columns) -->
+            <div class="col-md-4">
+                <!-- first block takes up 4 columns of space in the row -->
+            </div>
+            <div class="col-md-4">
+                <!-- second block takes up 4 columns of space in the row -->
+            </div>
+            <div class="col-md-4">
+                <!-- third block takes up 4 columns of space in the row -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. 
+                    Scelerisque varius morbi enim nunc faucibus a pellentesque. 
+                    In nulla posuere sollicitudin aliquam ultrices sagittis orci.</p> 
+            </div>
+            <div class="col-md-6">
+                <p> Diam phasellus vestibulum lorem sed risus ultricies. 
+                    Et malesuada fames ac turpis egestas sed tempus.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. 
+                    Scelerisque varius morbi enim nunc faucibus a pellentesque. 
+                    In nulla posuere sollicitudin aliquam ultrices sagittis orci.</p> 
+            </div>
+            <div class="col-md-2">
+                <p> Diam phasellus vestibulum lorem sed risus ultricies. 
+                    Et malesuada fames ac turpis egestas sed tempus.</p>
+            </div>
+        </div>
+        <!-- from right to left -->
+        <div class="row justify-content-end">
+            <div class="col-md-10">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est. 
+                    Scelerisque varius morbi enim nunc faucibus a pellentesque. 
+                    In nulla posuere sollicitudin aliquam ultrices sagittis orci.</p> 
+            </div>
+    </div>
+    <br>
+    <footer>
+        <p><a href="index.html">Return to Home Page</a>
+        <p>&copy; 2022, Bootcamp!</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+    
+</html>

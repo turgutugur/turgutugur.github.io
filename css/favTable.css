@@ -1,0 +1,29 @@
+.favTable caption{
+    text-align: center;
+    color:red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* padding top, right, bottom, left */
+.favTable th{
+    padding: 10pt 10pt 10pt 10pt; 
+
+}
+/* samething with table data  */
+.favTable td{
+    padding: 10pt 10pt 10pt 10pt;
+}
+
+/* change color of even number of rows */
+.favTable tr:nth-child(even){
+    background-color: gray;
+}
+/* change color of odd number of rows */
+.favTable tr:nth-child(odd){
+    background-color: lightgray;
+}
+/* changing color when hovering */
+.favTable tr:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
